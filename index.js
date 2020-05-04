@@ -3,7 +3,7 @@ let user = {
     age: 20,
     gender: "male",
     showInfo: (realAge) => {
-        console.log(`${ this.name } ${ realAge } ${ this.gender }`);
+        document.write(`${ this.name } ${ realAge } ${ this.gender }`);
     }
 }
 user.showInfo(25);
