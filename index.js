@@ -5,6 +5,6 @@ let user = {
     showInfo: (realAge) => {
         document.write(`${ this.name } ${ realAge } ${ this.gender }`);
     }
-}
+};
 user.showInfo(25);
 // console.log(typeof user.showInfo)
